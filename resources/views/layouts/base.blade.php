@@ -13,7 +13,7 @@
     @stack('stylesheets')
     @stack('scripts')
 
-    <title>Laravel</title>
+    <title>{{ config('app.name') }}</title>
 </head>
 <body>
     @yield('content')
